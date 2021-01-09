@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BlazorTest.Controllers
 {
-    //[Route("api/[controller]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class DatiPioggiaController : Controller
     {
